@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens for Sunaulo Agrifarm.
+ *
+ * The display/body/mono families below use system font stacks so the
+ * project builds without network access to Google Fonts. Swap in
+ * `next/font/google` (e.g. Fraunces, Source Sans 3, Space Mono) by
+ * loading them in app/layout.tsx and pointing these variables at the
+ * generated `--font-*` CSS variables instead.
+ */
+@theme {
+  --color-cream: #f6f0e1;
+  --color-paper: #fffbf2;
+  --color-ink: #23291d;
+  --color-ink-soft: #4a4f3f;
+  --color-green: #33502f;
+  --color-green-deep: #1f3322;
+  --color-gold: #e3a23c;
+  --color-gold-soft: #f3d6a0;
+  --color-terracotta: #bd5a2e;
+  --color-line: rgba(35, 41, 29, 0.12);
+
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "Courier New", ui-monospace, SFMono-Regular, monospace;
+
+  --container-content: 1180px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

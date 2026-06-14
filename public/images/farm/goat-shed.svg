@@ -1,0 +1,49 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f6f0e1"/>
+  <rect width="800" height="280" fill="#f3d6a0"/>
+  <circle cx="120" cy="90" r="46" fill="#fffbf2" opacity="0.8"/>
+  <rect y="280" width="800" height="320" fill="#bcae8c"/>
+  <path d="M0 320 Q200 295 400 320 T800 320 V600 H0 Z" fill="#9c8e6c"/>
+
+  <!-- shed -->
+  <rect x="480" y="180" width="260" height="160" fill="#fffbf2" stroke="#23291d" strokeWidth="3"/>
+  <polygon points="470,180 610,90 750,180" fill="#bd5a2e" stroke="#23291d" strokeWidth="3"/>
+  <rect x="540" y="240" width="60" height="100" fill="#33502f"/>
+  <rect x="650" y="220" width="50" height="50" fill="#cfe6ec" stroke="#23291d" strokeWidth="2"/>
+
+  <!-- goats -->
+  <g stroke="#23291d" strokeWidth="3" fill="#fffbf2">
+    <g transform="translate(120,400)">
+      <ellipse cx="40" cy="40" rx="55" ry="32"/>
+      <circle cx="95" cy="20" r="20"/>
+      <line x1="40" y1="70" x2="20" y2="110"/>
+      <line x1="70" y1="70" x2="80" y2="110"/>
+      <line x1="0" y1="70" x2="-10" y2="110"/>
+      <line x1="100" y1="70" x2="110" y2="110"/>
+      <path d="M85 5 L78 -12 M105 5 L112 -12" fill="none"/>
+    </g>
+    <g transform="translate(280,430)" fill="#e8ddc6">
+      <ellipse cx="40" cy="40" rx="55" ry="32"/>
+      <circle cx="95" cy="20" r="20"/>
+      <line x1="40" y1="70" x2="20" y2="110"/>
+      <line x1="70" y1="70" x2="80" y2="110"/>
+      <line x1="0" y1="70" x2="-10" y2="110"/>
+      <line x1="100" y1="70" x2="110" y2="110"/>
+      <path d="M85 5 L78 -12 M105 5 L112 -12" fill="none"/>
+    </g>
+    <g transform="translate(60,470) scale(0.8)" fill="#fffbf2">
+      <ellipse cx="40" cy="40" rx="55" ry="32"/>
+      <circle cx="95" cy="20" r="20"/>
+      <line x1="40" y1="70" x2="20" y2="110"/>
+      <line x1="70" y1="70" x2="80" y2="110"/>
+      <line x1="0" y1="70" x2="-10" y2="110"/>
+      <line x1="100" y1="70" x2="110" y2="110"/>
+      <path d="M85 5 L78 -12 M105 5 L112 -12" fill="none"/>
+    </g>
+  </g>
+
+  <g fill="#33502f">
+    <ellipse cx="450" cy="560" rx="80" ry="14" opacity="0.5"/>
+    <ellipse cx="630" cy="570" rx="100" ry="16" opacity="0.5"/>
+  </g>
+</svg>

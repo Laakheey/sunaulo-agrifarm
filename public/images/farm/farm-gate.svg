@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#fffbf2"/>
+  <rect width="800" height="300" fill="#f6f0e1"/>
+  <rect y="300" width="800" height="300" fill="#e8ddc6"/>
+  <path d="M0 340 Q200 315 400 340 T800 340 V600 H0 Z" fill="#d9caa8"/>
+
+  <!-- gate posts -->
+  <rect x="120" y="120" width="34" height="380" fill="#5a4632"/>
+  <rect x="646" y="120" width="34" height="380" fill="#5a4632"/>
+  <rect x="120" y="120" width="560" height="34" fill="#5a4632"/>
+
+  <!-- signboard -->
+  <rect x="220" y="50" width="360" height="100" rx="10" fill="#1f3322" stroke="#e3a23c" strokeWidth="4"/>
+  <text x="400" y="92" textAnchor="middle" fontFamily="Georgia, serif" fontSize="30" fill="#f3d6a0" fontWeight="bold">Sunaulo Agrifarm</text>
+  <text x="400" y="124" textAnchor="middle" fontFamily="Georgia, serif" fontSize="16" fill="#f6f0e1" letterSpacing="2">GHORAHI-11, DANG</text>
+
+  <!-- stall table -->
+  <rect x="180" y="400" width="440" height="20" fill="#7a5c3e"/>
+  <rect x="200" y="420" width="16" height="120" fill="#7a5c3e"/>
+  <rect x="584" y="420" width="16" height="120" fill="#7a5c3e"/>
+
+  <!-- baskets / produce -->
+  <g>
+    <ellipse cx="260" cy="395" rx="46" ry="20" fill="#bd5a2e"/>
+    <circle cx="240" cy="380" r="16" fill="#e3a23c"/>
+    <circle cx="265" cy="372" r="16" fill="#e3a23c"/>
+    <circle cx="290" cy="382" r="16" fill="#e3a23c"/>
+
+    <ellipse cx="400" cy="395" rx="46" ry="20" fill="#bd5a2e"/>
+    <circle cx="380" cy="378" r="14" fill="#33502f"/>
+    <circle cx="405" cy="370" r="14" fill="#33502f"/>
+    <circle cx="430" cy="380" r="14" fill="#33502f"/>
+
+    <ellipse cx="540" cy="395" rx="46" ry="20" fill="#bd5a2e"/>
+    <circle cx="520" cy="378" r="15" fill="#f3d6a0"/>
+    <circle cx="545" cy="368" r="15" fill="#f3d6a0"/>
+    <circle cx="570" cy="380" r="15" fill="#f3d6a0"/>
+  </g>
+
+  <!-- sacks on ground -->
+  <g fill="#e8ddc6" stroke="#5a4632" strokeWidth="3">
+    <rect x="160" y="500" width="80" height="70" rx="10"/>
+    <rect x="260" y="510" width="80" height="60" rx="10"/>
+  </g>
+</svg>
