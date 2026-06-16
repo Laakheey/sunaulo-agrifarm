@@ -7,7 +7,7 @@ export const SITE = {
   description:
     "Sunaulo Agrifarm grows and sells fresh, seasonal produce from Ghorahi-11, Dang, Nepal — rice, lentils, mustard oil, vegetables and more, straight from our fields to your table.",
   phone: "+977 98X-XXXXXXX",
-  email: "hello@sunauloagrifarm.com.np",
+  email: "sunauloagrifarm@gmail.com",
   address:
     "Sunaulo Agrifarm, Ward No. 11, Ghorahi Sub-Metropolitan City, Dang, Lumbini Province, Nepal",
 } as const;
