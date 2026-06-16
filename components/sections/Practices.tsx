@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { PRACTICES } from "@/data/practices";
 
-export function Practices() {
+const Practices = () => {
   return (
     <section id="practices" className="py-22">
       <Container>
@@ -32,3 +32,5 @@ export function Practices() {
     </section>
   );
 }
+
+export default Practices;

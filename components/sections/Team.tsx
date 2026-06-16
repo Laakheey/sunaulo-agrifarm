@@ -15,7 +15,7 @@ function getInitials(name: string): string {
  * Renders the farm's staff and their posts from `data/team.ts`. Add, remove,
  * or reorder entries in that file — this component requires no changes.
  */
-export function Team() {
+const Team = () => {
   return (
     <section id="team" className="border-y border-line bg-paper py-22">
       <Container>
@@ -55,3 +55,5 @@ export function Team() {
     </section>
   );
 }
+
+export default Team;

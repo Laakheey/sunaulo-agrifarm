@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
-import { Logo } from "@/components/icons/Logo";
 import { NAV_LINKS, SITE } from "@/data/site";
 import Image from "next/image";
 
@@ -20,7 +19,6 @@ export function Header() {
           className="flex items-center gap-3 text-ink"
           onClick={() => setMenuOpen(false)}
         >
-          {/* <Logo className="h-9 w-9 flex-none" /> */}
           <Image
             src="/images/favicon.png"
             alt={`${SITE.name} logo`}

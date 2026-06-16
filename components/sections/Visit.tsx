@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CONTACT_DETAILS } from "@/data/site";
 
-export function Visit() {
+const Visit = () => {
   return (
     <section id="visit" className="bg-green-deep py-22 text-cream">
       <Container>
@@ -45,3 +45,5 @@ export function Visit() {
     </section>
   );
 }
+
+export default Visit;

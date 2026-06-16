@@ -1,7 +1,7 @@
 import type { SVGProps } from "react";
 
 /** Decorative illustration of terraced paddy fields under an evening sky. */
-export function PaddyFieldIllustration(props: SVGProps<SVGSVGElement>) {
+const PaddyFieldIllustration = (props: SVGProps<SVGSVGElement>) => {
   return (
     <svg
       viewBox="0 0 480 600"
@@ -24,3 +24,5 @@ export function PaddyFieldIllustration(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+export default PaddyFieldIllustration;

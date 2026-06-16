@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { FARM_GALLERY } from "@/data/gallery";
 
-export function Gallery() {
+const Gallery = () => {
   return (
     <section id="gallery" className="border-y border-line bg-paper py-22">
       <Container>
@@ -31,3 +31,5 @@ export function Gallery() {
     </section>
   );
 }
+
+export default Gallery;

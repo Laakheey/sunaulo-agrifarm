@@ -21,7 +21,7 @@ const VALUES = [
   },
 ];
 
-export function About() {
+const About = () => {
   return (
     <section id="about" className="border-y border-line bg-paper py-22">
       <Container className="grid gap-16 lg:grid-cols-[0.9fr_1.1fr]">
@@ -77,3 +77,5 @@ export function About() {
     </section>
   );
 }
+
+export default About;

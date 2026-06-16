@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { PRODUCTS } from "@/data/products";
 
-export function Products() {
+const Products = () => {
   return (
     <section id="products" className="border-y border-line bg-paper py-22">
       <Container>
@@ -34,3 +34,5 @@ export function Products() {
     </section>
   );
 }
+
+export default Products;

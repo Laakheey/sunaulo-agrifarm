@@ -30,7 +30,7 @@ function SubmitButton() {
 }
 
 
-export function OrderForm() {
+const OrderForm = () => {
   const [state, formAction] = useActionState(submitOrder, INITIAL_ORDER_STATE);
 
   return (
@@ -92,3 +92,5 @@ export function OrderForm() {
     </form>
   );
 }
+
+export default OrderForm;

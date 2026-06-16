@@ -1,8 +1,8 @@
 import { Container } from "@/components/ui/Container";
-import { OrderForm } from "@/components/sections/OrderForm";
+import { OrderForm } from "@/components/sections";
 import { FAQS } from "@/data/faq";
 
-export function Contact() {
+const Contact = () => {
   return (
     <section id="contact" className="py-22">
       <Container className="grid items-start gap-14 lg:grid-cols-2">
@@ -47,3 +47,5 @@ export function Contact() {
     </section>
   );
 }
+
+export default Contact;

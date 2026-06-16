@@ -26,7 +26,7 @@ const SEASON_STYLES: Record<Season, { column: string; month: string; tag: string
   },
 };
 
-export function HarvestCalendar() {
+const HarvestCalendar = () => {
   return (
     <section id="harvest" className="bg-cream py-22">
       <Container>
@@ -80,3 +80,5 @@ export function HarvestCalendar() {
     </section>
   );
 }
+
+export default HarvestCalendar;

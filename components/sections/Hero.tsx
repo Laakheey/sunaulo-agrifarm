@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { PaddyFieldIllustration } from "@/components/icons/PaddyFieldIllustration";
+import PaddyFieldIllustration from "@/components/icons/PaddyFieldIllustration";
 import { HERO_STATS } from "@/data/site";
 
-export function Hero() {
+const Hero = () => {
   return (
     <section>
       <Container className="grid items-center gap-12 pb-14 pt-0 lg:grid-cols-[1.1fr_0.9fr]">
@@ -63,3 +63,5 @@ export function Hero() {
     </section>
   );
 }
+
+export default Hero;
