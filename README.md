@@ -51,7 +51,6 @@ components/
     Button.tsx          Primary/ghost pill buttons
     SectionHeading.tsx  Shared kicker + title + intro pattern
   icons/
-    Logo.tsx
     PaddyFieldIllustration.tsx
 
 data/                   All copy and content as typed arrays/constants
@@ -82,7 +81,7 @@ The "Send order request" form on the Contact section emails submissions to
 
 ### Setup
 
-1. Copy `.env.local.example` to `.env.local`.
+1. Copy `.env.local.example` to `.env`.
 2. Enable 2-Step Verification on the Gmail account you'll send from (this can be the
    farm's own account), then create an [App Password](https://myaccount.google.com/apppasswords).
 3. Set `GMAIL_USER` to that Gmail address and `GMAIL_APP_PASSWORD` to the generated app
